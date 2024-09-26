@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget Control</title>
+    <link rel="stylesheet" href="budgetcontrol.css" />
+  </head>
+  <body>
+    <div class="budgetEntry">
+      <div class="entry">
+        <h1>Budget Control</h1>
+        <input type="number" placeholder="Budget Entry" id="budgetEntry" />
+        <button id="enter">Enter</button>
+      </div>
+    </div>
+    <div class="budgetDetails">
+      <h1 id="budget"></h1>
+
+      <div class="amount">
+        <div class="amountremaining">
+          <h4>Amount-remaining:</h4>
+          <span id="amountRemaining"></span>
+        </div>
+        <div class="totalexp">
+          <h4>Total Expense:</h4>
+          <span id="totalexp"></span>
+        </div>
+      </div>
+      <div class="expense">
+        <h2>Expense</h2>
+        <div class="inpt">
+          <input type="text" placeholder="Expense details" class="expdetail" />
+          <input type="number" placeholder="Amount" class="expamount" />
+        </div>
+        <button id="add">Add</button>
+        <ul id="expenseList">
+          <!-- <li>
+            <p>Hello how are you</p>
+            <span>$200</span>
+            <img src="delete icon.png" alt="" />
+          </li>
+          <li>
+            <p>Hello how are you</p>
+            <span>$200</span>
+            <img src="delete icon.png" alt="" />
+          </li>
+          <li>
+            <p>Hello how are you</p>
+            <span>$200</span>
+            <img src="delete icon.png" alt="" />
+          </li>
+          <li>
+            <p>Hello how are you</p>
+            <span>$200</span>
+            <img src="delete icon.png" alt="" />
+          </li> -->
+        </ul>
+      </div>
+    </div>
+    <script src="budgetcontrol.js"></script>
+  </body>
+</html>
